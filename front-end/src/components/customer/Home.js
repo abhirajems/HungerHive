@@ -24,7 +24,7 @@ function Home() {
     tiffin_price: "",
     image_link: "",
   });
-
+//this state is single tiffin details
   useEffect(() => {
     console.log("Inside Component Did Mount");
     select();

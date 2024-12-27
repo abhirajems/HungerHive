@@ -4,7 +4,7 @@ import { createNodejsUrl } from "../../utils/utils";
 import Footer from "./Footer";
 import CustomerNavbar2 from "./CustomerNavbar2";
 import bgimage4 from "../../../src/images/bg4.jpg";
-
+//
 function MyOrderHistory() {
   var isLoggedIn = sessionStorage.getItem("isLoggedIn");
   var customerId = sessionStorage.getItem("customerId");

@@ -6,7 +6,7 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import CustomerNavbar2 from "./CustomerNavbar2";
 import bgimage4 from "../../../src/images/bg4.jpg";
-
+//
 function MyOrders() {
   var isLoggedIn = sessionStorage.getItem("isLoggedIn");
   var customerId = sessionStorage.getItem("customerId");
