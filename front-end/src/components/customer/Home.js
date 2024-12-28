@@ -13,7 +13,7 @@ import "react-toastify/dist/ReactToastify.css";
 function Home() {
   // var user = sessionStorage.getItem("user");
   var customerId = sessionStorage.getItem("customerId");
-  var isLoggedIn = sessionStorage.getItem("isLoggedIn");//to get login data
+  var isLoggedIn = sessionStorage.getItem("isLoggedIn");
 
   const [tiffins, setTiffins] = useState([]);
   const [tiffin, setTiffin] = useState({

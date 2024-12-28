@@ -28,11 +28,11 @@ function Favorites() {
   useEffect(() => {
     console.log("Inside Component Did Mount");
     select();
-  }, []);
+  }, []);//to call select
 
   useEffect(() => {
     console.log("Component Did Update is called..");
-  }, [tiffins, tiffin]);
+  }, [tiffins, tiffin]);//to update tiffins
 
   
 
